@@ -35,7 +35,7 @@ Redis Hardening Checklist
 
 ## Input validation
 - [ ] Disable/Rename Dangerous Commands using ```rename-command```
-    > ```CONFIG```, ```SUTDOWN```, ```FLUSHDB```, ```FLUSHALL```, etc.
+    > ```CONFIG```, ```SHUTDOWN```, ```FLUSHDB```, ```FLUSHALL```, etc.
 - [ ] Validate strings obtained from untrusted sources Before composing the body of the Lua script using.
 - [ ] Validate Usage of SORT Commands for Injections
     > SORT command is using the qsort algorithm and doesn't use a per-execution pseudo-random seed to the hash function unlike other functions!
