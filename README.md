@@ -2,9 +2,9 @@
 Redis Hardening Checklist
 
 ## OS
-- [ ] Set Directory Permissions
+- [ ] Set Redis Directory Permissions
     > 700
-- [ ] Set Config Permissions
+- [ ] Set Redis Config Permissions
     > 600
 - [ ] Create a user just for running Redis!
 - [ ] Do not use privileged user to run Redis!
