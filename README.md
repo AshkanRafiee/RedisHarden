@@ -1,6 +1,6 @@
 # Redis Hardening
 Redis Hardening Checklist
-
+- [ ] First of all if you are using sensitive data try not to use redis as it's not designed for that!
 ## OS
 - [ ] Set Redis Directory Permissions
     > 700
